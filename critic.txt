@@ -1,0 +1,119 @@
+GetCtrlVal
+SetCtrlVal
+GetCtrlAttribute 
+SetCtrlAttribute
+
+
+LED Control Functions
+The following User Interface Library functions operate on LED controls.
+
+AddCtrlToSplitter 
+ 	DefaultCtrl 
+DiscardCtrl 
+DuplicateCtrl 
+GetCtrlArrayIndex 
+ 	GetCtrlAttribute 
+GetCtrlBoundingRect 
+GetCtrlDisplayBitmap 
+ 	GetCtrlVal 
+ 	GetRelativeMouseState 
+ 	GetScaledCtrlDisplayBitmap 
+InsertCtrlArrayItem 
+InstallCtrlCallback 
+PrintCtrl 
+QueueUserEvent 
+RemoveCtrlFromSplitter 
+SetActiveCtrl 
+ 	SetCtrlAttribute 
+ 	SetCtrlVal 
+SetInputMode
+
+Numeric Control Functions
+The following User Interface Library functions operate on numeric controls.
+
+AddCtrlToSplitter 
+DSBindCtrl 
+DSUnbind 
+	DefaultCtrl 
+DiscardCtrl 
+DuplicateCtrl 
+	GetCtrlArrayIndex 
+	GetCtrlAttribute 
+	GetCtrlBoundingRect 
+GetCtrlDisplayBitmap 
+GetCtrlVal 
+GetRelativeMouseState 
+GetScaledCtrlDisplayBitmap 
+InsertCtrlArrayItem 
+InstallCtrlCallback 
+PrintCtrl 
+QueueUserEvent 
+RemoveCtrlFromSplitter 
+	SetActiveCtrl 
+	SetCtrlAttribute 
+	SetCtrlVal 
+SetInputMode 
+
+
+
+int CVICALLBACK GetPrDataCB (int panel, int control, int event,
+							 void *callbackData, int eventData1, int eventData2)
+{
+	u16 dataType;
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			dataType = CMD_READPRDATA;
+			CmtWriteTSQData(tsqTxId, &dataType, 1, TSQ_INFINITE_TIMEOUT, NULL);
+			break;
+	}
+	return 0;
+}
+
+int CVICALLBACK SetPrDataCB (int panel, int control, int event,
+							 void *callbackData, int eventData1, int eventData2)
+{
+	u16 dataType;
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			readPRDataFromTable(&prdata);
+			prdata.sysId = devInfo[debugCurDev].id;
+			dataType = CMD_WRITEPRDATA;
+			CmtWriteTSQData(tsqTxId, &dataType, 1, TSQ_INFINITE_TIMEOUT, NULL);
+			break;
+	}
+	return 0;
+}
+
+int CVICALLBACK SetCrCB (int panel, int control, int event,
+						 void *callbackData, int eventData1, int eventData2)
+{
+	u16 dataType;
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			readCRDataFromTable(&crdata);
+			dataType = CMD_WRITECRDATA;
+			CmtWriteTSQData(tsqTxId, &dataType, 1, TSQ_INFINITE_TIMEOUT, NULL);
+			break;
+	}
+	return 0;
+}
+void flashRunLed(void)
+{
+	static int count = 0;
+	count++;
+	if(count == 2) SetCtrlVal(panelHandle, PANEL_LED_RUN, 1);
+	else if(count >= 4)
+	{
+		count = 0;
+		SetCtrlVal(panelHandle, PANEL_LED_RUN, 0);
+	}
+}
+
+# FFT functions
+
+
+
+https://www.jianshu.com/p/ff20d13036ee

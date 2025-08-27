@@ -1,0 +1,251 @@
+[Workspace Header]
+Version = 1300
+Pathname = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/APF_DEBUG.cws"
+CVI Dir = "/d/schools/labwinaddon/cvi2013"
+CVI Shared Dir = "/D/Schools/labwinaddon/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2013"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "APF_DEBUG.prj"
+Drag Bar Left = 230
+Window Top = 245
+Window Left = 416
+Window Bottom = 980
+Window Right = 1495
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Never"
+Save Changes Before Compiling = "Never"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 1
+Window Confinement Region Enabled = True
+MainColumnWidth = 213
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1300
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug64"
+Warn User If Debugging Release = 0
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/d/schools/labwinaddon/cvi2013/toolslib/toolbox/inifile.fp"
+File Type = "Function Panel"
+Disk Date = 3455056800
+In Projects = "1,"
+
+[File 0002]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/APF_DEBUG.c"
+File Type = "CSource"
+Disk Date = 3839129310
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 1
+Source Window State = "1,3518,3518,3518,76,79,76,0,0,142,0,0,0,0,0,41,3490,0,3519,77,453,719,1,0,"
+
+[File 0003]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/APF_DEBUG.uir"
+File Type = "User Interface Resource"
+Disk Date = 3839128127
+In Projects = "1,"
+Window Top = 126
+Window Left = 50
+Window Height = 453
+Window Width = 719
+
+[File 0004]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/APF_DEBUG.h"
+File Type = "Include"
+Disk Date = 3839128127
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Source Window State = "1,36,36,36,9,16,16,0,3,80,0,20,0,0,0,23,0,0,36,9,427,718,1,14,"
+
+[File 0005]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/comm.c"
+File Type = "CSource"
+Disk Date = 3839123191
+In Projects = "1,"
+Window Top = 157
+Window Left = 66
+Source Window State = "1,199,199,199,16,25,25,0,0,58,0,669,0,3,0,17,415,0,223,72,323,541,1,0,"
+
+[File 0006]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/devData.c"
+File Type = "CSource"
+Disk Date = 3839109827
+In Projects = "1,"
+Window Top = 126
+Window Left = 50
+Source Window State = "1,67,67,67,15,22,22,0,0,55,0,0,0,0,0,14,50,0,63,29,275,517,1,0,"
+
+[File 0007]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/protocol.c"
+File Type = "CSource"
+Disk Date = 3839109752
+In Projects = "1,"
+Window Top = 64
+Window Left = 18
+Source Window State = "1,834,834,834,5,16,16,0,0,60,0,688,0,1,0,13,823,0,834,5,249,559,1,0,"
+
+[File 0008]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/comm.h"
+File Type = "Include"
+Disk Date = 3838245452
+In Projects = "1,"
+Window Top = 72
+Window Left = 18
+Source Window State = "1,75,75,75,13,19,19,0,0,0,0,0,0,0,0,0,69,0,74,14,263,517,1,0,"
+
+[File 0009]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/datatype.h"
+File Type = "Include"
+Disk Date = 3838427707
+In Projects = "1,"
+Window Top = 126
+Window Left = 50
+Source Window State = "1,432,432,432,12,25,25,0,3,0,0,213,0,0,0,0,425,0,432,12,263,517,1,14,"
+
+[File 0010]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/devData.h"
+File Type = "Include"
+Disk Date = 3837477955
+In Projects = "1,"
+Window Top = 58
+Window Left = 10
+Source Window State = "1,50,50,50,17,24,24,0,3,0,0,27,0,0,0,0,38,0,50,17,349,600,1,22,"
+
+[File 0011]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/protocol.h"
+File Type = "Include"
+Disk Date = 3838246605
+In Projects = "1,"
+Window Top = 95
+Window Left = 34
+Source Window State = "1,29,29,29,12,23,23,0,0,0,0,0,0,0,0,0,19,0,24,29,263,517,1,28,"
+
+[File 0012]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/SumNew.h"
+File Type = "Include"
+Disk Date = 3837205506
+In Projects = "1,"
+Window Top = 64
+Window Left = 18
+Source Window State = "1,20,20,20,10,16,16,0,0,0,0,0,0,0,0,0,18,0,18,38,263,517,1,0,"
+
+[File 0013]
+Path = "/c/Users/The41/OneDrive/Desktop/lab/DC_cp6/½çÃæÎÄ×Ö.ini"
+File Type = "Unknown"
+Disk Date = 3837205506
+In Projects = "1,"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = True
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Watch 1]
+Watch Expression = "u8"
+
